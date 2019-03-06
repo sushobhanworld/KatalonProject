@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SearchAndTitle,Chrome 72.0.3626.121,,2019-03-06 17:12:50,2019-03-06 17:14:06,1m - 16.379s,ERROR
+,,,,,,
+Test Cases/GoogleSearch/Title,Chrome 72.0.3626.121,,2019-03-06 17:12:51,2019-03-06 17:12:55,3.789s,ERROR
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-06 17:12:53,2019-03-06 17:12:55,1.994s,ERROR
+,,,,,,
+Test Cases/GoogleSearch/Search,Chrome 72.0.3626.121,,2019-03-06 17:12:55,2019-03-06 17:14:05,1m - 9.720s,PASSED
+"openBrowser("""")",Chrome 72.0.3626.121,,2019-03-06 17:12:56,2019-03-06 17:13:42,46.362s,PASSED
+maximizeWindow(),Chrome 72.0.3626.121,,2019-03-06 17:13:42,2019-03-06 17:13:44,1.351s,PASSED
+"navigateToUrl(""http://www.google.com"")",Chrome 72.0.3626.121,,2019-03-06 17:13:44,2019-03-06 17:13:56,12.756s,PASSED
+delay(5),Chrome 72.0.3626.121,,2019-03-06 17:13:56,2019-03-06 17:14:01,5.047s,PASSED
+driver = getWebDriver(),Chrome 72.0.3626.121,,2019-03-06 17:14:01,2019-03-06 17:14:01,0.001s,PASSED
+"name(""q"")).sendKeys(""Katalon studio"")",Chrome 72.0.3626.121,,2019-03-06 17:14:01,2019-03-06 17:14:03,1.181s,PASSED
+"xpath(""//div[@class='FPdoLc VlcLAe']//input[@value='Google Search']"")).sendKeys(ENTER)",Chrome 72.0.3626.121,,2019-03-06 17:14:03,2019-03-06 17:14:05,2.275s,PASSED
